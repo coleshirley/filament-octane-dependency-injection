@@ -1,5 +1,6 @@
 # Dependency Injection Error
 
+The Filament Navigation Items are cached by octane when they should not be. See the .mp4 file in this project for a demo (using laravel sail in this project with two users created by `sail artisan make:filament-user`)
 
 This issue occurs because laravel octane caches the singleton provided in filament/src/FilamentServiceProvider.php line 72-73
 
